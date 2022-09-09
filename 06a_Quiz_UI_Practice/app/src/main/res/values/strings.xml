@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">6a_Quiz_UI_Practice</string>
+    <string name="python_img">Python Image</string>
+    <string name="title"><b>Python Quiz</b></string>
+    <string name="score">SCORE : %1$d / %2$d </string>
+    <string name="btn_yes">YES</string>
+    <string name="btn_no">NO</string>
+</resources>
+
+
+

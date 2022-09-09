@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/edtLink"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_margin="20dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:inputType="textPersonName"-->
+    <!--        android:text="Name"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+
+    <!--        />-->
+
+    <!--    <ScrollView-->
+    <!--        android:id="@+id/scvResponse"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginVertical="80dp"-->
+    <!--        android:layout_marginHorizontal="20dp"-->
+    <!--        android:contentDescription="Scroll View"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/btnSend"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/edtLink">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="vertical">-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/textView"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:textSize="50sp"-->
+    <!--                android:text="SAMPLE RESPONSE \n SAMPLE RESPONSE\nSAMPLE RESPONSE \n SAMPLE RESPONSE\nSAMPLE RESPONSE \n SAMPLE RESPONSE\nSAMPLE RESPONSE \n SAMPLE RESPONSE\nSAMPLE RESPONSE \n SAMPLE RESPONSE\nSAMPLE RESPONSE \n SAMPLE RESPONSE\nSAMPLE RESPONSE \n SAMPLE RESPONSE\nSAMPLE RESPONSE \n SAMPLE RESPONSE\nSAMPLE RESPONSE \n SAMPLE RESPONSE\n" />-->
+    <!--        </LinearLayout>-->
+    <!--    </ScrollView>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btnSend"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_margin="20dp"-->
+    <!--        android:text="Button"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.5"-->
+    <!--        app:layout_constraintStart_toStartOf="parent" />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+        <EditText
+            android:id="@+id/edtLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:ems="10"
+            android:textSize="20sp"
+            android:inputType="textPersonName"
+            android:text="https://jsonplaceholder.typicode.com/users"
+            android:hint="Enter URL here"
+
+            />
+
+        <ScrollView
+            android:id="@+id/scvResponse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="Scroll View"
+            android:layout_weight="2"
+            >
+
+            <TextView
+                android:id="@+id/txtvResponse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="12dp"
+                android:textSize="16sp"
+                android:text="SAMPLE RESPONSE"
+
+            />
+<!--            android:text="SAMPLE RESPONSE \n SAMPLE RESPONSE\nSAMPLE RESPONSE \n SAMPLE RESPONSE\nSAMPLE RESPONSE \n SAMPLE RESPONSE\nSAMPLE RESPONSE \n SAMPLE RESPONSE\nSAMPLE RESPONSE \n SAMPLE RESPONSE\nSAMPLE RESPONSE \n SAMPLE RESPONSE\nSAMPLE RESPONSE \n SAMPLE RESPONSE\nSAMPLE RESPONSE \n SAMPLE RESPONSE\nSAMPLE RESPONSE \n SAMPLE RESPONSE\n"-->
+
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="12sp"
+            android:text="SEND"
+
+            />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
