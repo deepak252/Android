@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android_Development/20_Navigation_Drawer_Demo/app/src/main/res/layout/activity_main.xml" value="0.22395833333333334" />
+        <entry key="..\:/Android_Development/20_Navigation_Drawer_Demo/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Android_Development/20_Navigation_Drawer_Demo/app/src/main/res/layout/appbar_custom.xml" value="0.240625" />
+        <entry key="..\:/Android_Development/20_Navigation_Drawer_Demo/app/src/main/res/layout/appbar_main.xml" value="0.240625" />
+        <entry key="..\:/Android_Development/20_Navigation_Drawer_Demo/app/src/main/res/layout/content_main.xml" value="0.19743589743589743" />
+        <entry key="..\:/Android_Development/20_Navigation_Drawer_Demo/app/src/main/res/layout/drawer_header.xml" value="0.240625" />
+        <entry key="..\:/Android_Development/20_Navigation_Drawer_Demo/app/src/main/res/layout/fragment_a.xml" value="0.24166666666666667" />
+        <entry key="..\:/Android_Development/20_Navigation_Drawer_Demo/app/src/main/res/menu/navigation_items.xml" value="0.240625" />
       </map>
     </option>
   </component>
