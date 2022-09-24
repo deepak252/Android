@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         if(getSupportActionBar()!=null){
-            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true); //back button
 //            getSupportActionBar().setTitle("My Toolbar");
         }
         getSupportActionBar().setTitle("My Custom Toolbar");
