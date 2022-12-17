@@ -19,6 +19,7 @@ public class MusicService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         mediaPlayer = MediaPlayer.create(this, Settings.System.DEFAULT_RINGTONE_URI);
+//        mediaPlayer.setLooping(true);
         mediaPlayer.start();
 
 //        return super.onStartCommand(intent, flags, startId);
