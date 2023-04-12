@@ -6,13 +6,40 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+
+
+    <Button
+        android:id="@+id/btnOsm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="OSM View"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <Button
+        android:id="@+id/btnCheckLocationPermission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Location Permission"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnOsm"
+
+        />
+
+    <Button
+        android:id="@+id/btnRequestLocationPermission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Request Location Permission"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnCheckLocationPermission"
+        />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
